@@ -1,0 +1,81 @@
+@font-face {
+    font-family: mainFont;
+    src: url(Abel-Regular.ttf);
+}
+
+body {
+    font-family: mainFont;
+    text-align: center;
+    color: #272643;
+}
+
+.container-fluid {
+    background-color: #2c698d;
+}
+
+.container {
+    border: 1px solid #272643;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    background-color: white;
+    color: #272643;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+.form-check {
+    text-align: left;
+}
+
+.reg-btn {
+    background-color: #e3f6f5;
+}
+
+h1 {
+    display: flex;
+    flex-direction: row;
+}
+
+h1:before,
+h1:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+}
+
+h1:before {
+    margin-right: 10px
+}
+
+h1:after {
+    margin-left: 10px
+}
+
+.form-control {
+    border: 1px solid #272643;
+}
+
+.form-control:hover,
+:checked {
+    background-color: #e3f6f5;
+}
+
+.form-control:focus {
+    background-color: #e3f6f5;
+    border: 2.5px solid darkgray;
+    outline: none !important;
+}
+
+.reg-btn:hover {
+    background-color: #bae8e8;
+}

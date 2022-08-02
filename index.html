@@ -13,39 +13,42 @@
 
 <body>
     <div class="container-fluid">
-        <div class="container border w-50 h-75">
-            <h1 class="hr-lines">Register</h1>
+        <form class="form-signup">
+            <h1>Register</h1>
             <p>Create your account. It's free and only takes a few minutes</p>
-            <div class="row justify-content-lg-center">
-                <div class="col-md-6 mb-3 mt-3">
-                    <input type="text" class="form-control firstName" placeholder="First Name">
-                </div>
-
-
-                <div class="col-md-6 mb-3 mt-3">
-                    <input type="text" class="form-control lastName" placeholder="Last Name">
+            <div class="form-group">
+                <div class="row">
+                    <div class=" col-md-6  mt-3">
+                        <input type="text" class="form-control firstName" placeholder="First Name">
+                    </div>
+                    <div class=" col-md-6  mt-3">
+                        <input type="text" class="form-control lastName" placeholder="Last Name">
+                    </div>
                 </div>
             </div>
-            <form>
-                <div class="mb-3 mt-3">
-                    <input type="email" class="form-control email" id="email" placeholder="Enter email">
-                </div>
-                <div class="mb-3 mt-3">
-                    <input type="password" class="form-control" id="pwd" placeholder="Enter password">
-                </div>
-                <div class="mb-3 mt-3">
-                    <input type="password" class="form-control" id="confirm-pwd" placeholder="Confirm password">
-                </div>
+            <div class="form-group  mb-3 mt-3">
+                <input type="email" class="form-control email" id="email" placeholder="Enter email">
+            </div>
+            <div class="form-group mb-3 mt-3">
+                <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+            </div>
+            <div class="form-group mb-3 mt-3">
+                <input type="password" class="form-control" id="confirm-pwd" placeholder="Confirm password">
+            </div>
 
-                <div class="form-check mb-3">
-                    <label class="form-check-label">
+            <div class="form-check mb-3">
+                <label class="form-check-label">
                    <input class="form-check-input" type="checkbox" name="remember"> I accept <span></span>the terms of use</span> & <span>privacy policy</span>
                  </label>
-                </div>
-                <button type="submit " class="btn reg-btn mb-3 form-control reg-btn">Register Now</button>
-            </form>
-        </div>
-        <p>already have an account? <a href="# ">sign in</a></p>
+            </div>
+            <button type="submit " class="btn reg-btn mb-3 btn-block form-control">Register Now</button>
+
+            <!--</div>-->
+            <!--</div>-->
+    </div>
+    </form>
+    <p>already have an account? <a href="# ">sign in</a></p>
+
     </div>
     <script src="script.js"></script>
 </body>
